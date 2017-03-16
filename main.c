@@ -28,7 +28,8 @@ int main(int argc, char *argv[])
         config.isDigit = 0;
     }
     config.isDigit = 1;
-    config.minLength = 5;
+    config.isAlpha = 1;
+    config.minLength = 3;
     config.maxLength = 6;
     printf("min length: ");
     //scanf("%d", &config.minLength);
